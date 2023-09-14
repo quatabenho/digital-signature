@@ -24,9 +24,9 @@
     <br />
     <a href="https://cadilac.click">View Demo</a>
     ·
-    <a href="https://github.com/quatabenho/cadilac/issues">Report Bug</a>
+    <a href="https://github.com/quatabenho/digital-signature/issues">Report Bug</a>
     ·
-    <a href="https://github.com/quatabenho/cadilac/issues">Request Feature</a>
+    <a href="https://github.com/quatabenho/digital-signature/issues">Request Feature</a>
   </p>
 </div>
 
