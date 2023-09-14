@@ -12,7 +12,6 @@
 <br />
 <div align="center">
   <a href="https://github.com/quatabenho/cadilac">
-    <img src="assets/img/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Digital Signature</h3>
@@ -21,9 +20,9 @@
         A simple Java Swing application for  a demonstration of digital signature using RSA, SHA-1
     <br />
     <br />
+    <img src="digital.signature.rsa/src/logo.webp" alt="Logo" >
     <br />
-    <a href="https://cadilac.click">View Demo</a>
-    ·
+    <br />  
     <a href="https://github.com/quatabenho/digital-signature/issues">Report Bug</a>
     ·
     <a href="https://github.com/quatabenho/digital-signature/issues">Request Feature</a>
