@@ -20,7 +20,7 @@
         A simple Java Swing application for  a demonstration of digital signature using RSA, SHA-1
     <br />
     <br />
-    <img src="digital.signature.rsa/src/logo.webp" alt="Logo" >
+    <img src="logo.webp" alt="Logo" >
     <br />
     <br />  
     <a href="https://github.com/quatabenho/digital-signature/issues">Report Bug</a>
