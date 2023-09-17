@@ -68,4 +68,18 @@ public class AlgorithmRSA {
         
     }
 
+    /**
+     * Encrypt the given plaintext message.
+     */
+    public synchronized String encrypt(String message) {
+        return (new BigInteger(message.getBytes())).modPow(d, n).toString();
+    }
+
+    /**
+     * Encrypt the given plaintext message.
+     */
+    public synchronized BigInteger encrypt(BigInteger message) {
+        return message.modPow(d, n);
+    }
+
 }
