@@ -82,4 +82,18 @@ public class AlgorithmRSA {
         return message.modPow(d, n);
     }
 
+    /**
+     * Decrypt the given ciphertext message.
+     */
+    public synchronized String decrypt(String message) {
+        return new String((new BigInteger(message)).modPow(e, n).toByteArray());
+    }
+
+    /**
+     * Decrypt the given ciphertext message.
+     */
+    public synchronized BigInteger decrypt(BigInteger message) {
+        return message.modPow(e, n);
+    }
+
 }
