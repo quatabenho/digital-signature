@@ -96,4 +96,14 @@ public class AlgorithmRSA {
         return message.modPow(e, n);
     }
 
+    /**
+     * Trivial test program.
+     */
+    public static void main(String[] args) throws Exception {
+
+    }
+
+    void setN(int bitleg) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
