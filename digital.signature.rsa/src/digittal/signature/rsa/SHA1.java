@@ -12,3 +12,19 @@ public class SHA1 {
   public static void main(String[] args) throws Exception {
     
   }
+
+  public BigInteger md(String f) throws Exception {
+    BufferedInputStream file = new BufferedInputStream(new FileInputStream(f));
+    MessageDigest md = MessageDigest.getInstance("SHA-1");
+    DigestInputStream in = new DigestInputStream(file, md);
+    int i;
+    byte[] buffer = new byte[BUFFER_SIZE];
+    do {
+      i = in.read(buffer, 0, BUFFER_SIZE);
+    } while (i == BUFFER_SIZE);
+    md = in.getMessageDigest();
+    in.close();
+
+    return new BigInteger(md.digest());
+  }
+}
