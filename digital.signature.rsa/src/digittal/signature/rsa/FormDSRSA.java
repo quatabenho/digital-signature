@@ -53,3 +53,12 @@ public class FormDSRSA extends javax.swing.JFrame {
         this.setResizable(false);
     }
 
+    public void OutputWrite(File saveLocation, BigInteger EncryptCodes, String name)
+            throws FileNotFoundException {
+
+        PrintWriter file
+                = new PrintWriter(new FileOutputStream(new File(saveLocation, name)));
+        file.println(EncryptCodes);
+        file.close();
+
+    }
