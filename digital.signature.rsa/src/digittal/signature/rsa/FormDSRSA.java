@@ -62,3 +62,16 @@ public class FormDSRSA extends javax.swing.JFrame {
         file.close();
 
     }
+
+    private File getSaveLocation() {
+        JFileChooser chooser = new JFileChooser();
+        chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+        int result = chooser.showSaveDialog(this);
+
+        if (result == chooser.APPROVE_OPTION) {
+            return chooser.getSelectedFile();
+        } else {
+            return null;
+        }
+    }
+
